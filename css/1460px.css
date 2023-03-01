@@ -606,15 +606,19 @@
     flex-wrap: wrap;
     padding-top: 60px;
   }
+  .footer__wrapper div:nth-child(2) {
+    margin-right: 5%;
+  }
+  .footer__wrapper div:nth-child(3) {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+  }
 
   .footer__wrapper div:nth-child(4) {
     margin-top: 10%;
-  }
-
-  .footer__wrapper a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.75);
-    font-size: 12px;
+    margin-bottom: 5%;
+    margin-left: 10%;
   }
 
   .footer__wrapper ul {
